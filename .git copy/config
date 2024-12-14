@@ -1,0 +1,17 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+[remote "upstream"]
+	url = https://github.com/codewithsadee/vcard-personal-portfolio.git
+	fetch = +refs/heads/*:refs/remotes/upstream/*
+[branch "main"]
+	remote = origin
+	vscode-merge-base = origin/master
+	github-pr-base-branch = "codewithsadee#vcard-personal-portfolio#master"
+	merge = refs/heads/main
+[remote "origin"]
+	url = https://github.com/Adithya-5369/vcard-personal-portfolio.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
