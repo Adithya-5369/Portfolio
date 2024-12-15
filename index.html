@@ -873,7 +873,7 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form class="form" data-form>
+          <form action="https://formsubmit.co/ed0bc3a129224f577b83f97cc7f67b0f" method="POST" class="form" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -883,6 +883,9 @@
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
+            <input type="hidden" name="_captcha" value="false"> <!-- Disables CAPTCHA -->
+            <input type="hidden" name="_next" value="adithya369.onrender.com"> <!-- Thank-you message -->
+            
             <button class="form-btn" type="submit" disabled data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
