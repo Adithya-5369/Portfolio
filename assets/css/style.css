@@ -345,7 +345,7 @@ main {
 }
 
 .info-content .title {
-  color: var(--orange-yellow-crayola);
+  color: #ffce1c;
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
